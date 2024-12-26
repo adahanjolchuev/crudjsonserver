@@ -1,0 +1,42 @@
+.admin {
+  background: url("../../../images//backgroundAdmin.svg") center/cover no-repeat;
+  height: 900px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-top: 100px;
+  gap: 20px;
+  margin-left: 380px;
+}
+input {
+  width: 550px;
+  height: 70px;
+  padding: 25px 10px 10px 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  outline: none;
+}
+input.input-error {
+  border: 3px solid red;
+  background-color: #ffffff;
+}
+.error {
+  color: red;
+}
+.addButton {
+  width: 200px;
+  padding: 10px 30px;
+  color: #000000;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 20px;
+  background: #ffffff;
+  margin-left: 175px;
+}

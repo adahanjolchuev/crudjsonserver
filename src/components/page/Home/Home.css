@@ -1,0 +1,71 @@
+.home {
+  margin: 50px 0;
+}
+.blocks {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.block {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: start;
+  width: 350px;
+  height: auto;
+  background: #f3f3f3;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #000000;
+}
+.imgBlock {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.texts {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+h2 {
+  color: #000000;
+}
+.name {
+  font-weight: 700;
+  font-size: 24px;
+}
+.colorYears {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.color {
+  font-weight: 500;
+  font-size: 20px;
+}
+.age {
+  font-size: 16px;
+  font-weight: 400;
+}
+p {
+  color: #000000;
+  font-weight: 500;
+}
+.price {
+  color: #000000;
+  font-weight: 700;
+  font-size: 24px;
+}
+button {
+  width: 100%;
+  background: red;
+  color: white;
+  padding: 15px 30px;
+  font-weight: 800;
+  cursor: pointer;
+  border-radius: 0 0 10px 10px;
+  border: none;
+  outline: none;
+}
